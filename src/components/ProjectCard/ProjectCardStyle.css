@@ -1,0 +1,131 @@
+
+.projectContainer{
+
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .projectTitle{
+  margin-top: 80px;
+  width: fit-content;
+  height: auto;
+  text-align: left;
+  position: relative;
+  
+  }
+  
+  .projectDescription{
+    width: 50%;
+    height: auto;
+    background-color:#6554AF;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: justify;
+    padding: 10px;
+   
+  }
+  
+  .projectSkills {
+    margin: 25px 0;
+    font-size: 1rem;
+    width: 40%;
+   
+    
+  }
+  
+  .projectLinks {
+    margin: 0;
+    width: 40%;
+    text-align: right;
+  
+  }
+  
+  .screenshot {
+     width: 600px;
+     border-radius: 0.25rem;
+  }
+  
+  .screenshotContainer{
+    width: max-content;
+    position: absolute;
+    display: inline-block;
+    left: 41%;
+    top: 2%;
+    z-index:-1; 
+  }
+
+  .projectTextContainer{
+    width: 100%;
+    height: auto;
+  }
+  
+
+  @media only screen and (max-width: 1200px) {
+    .projectContainer{
+      height: 800px;
+      border-radius: 0.5rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      
+    }
+
+    .projectTextContainer{
+      position: absolute;
+      bottom: 4%;
+      display: flex;
+      flex-direction: column;
+   
+    }
+
+    .projectTitle{
+      margin: auto;
+      width: 100%;
+      text-align: center;
+    }
+
+
+    .projectDescription{
+      width: 90%;
+      margin: 30px auto;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .projectSkills{
+      width: fit-content;
+      margin: 25px auto;
+    }
+   
+    .projectLinks{
+      margin: auto;
+      width: fit-content;
+    }
+
+    .screenshotContainer{
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      top: 3%;
+      left: 0;
+ 
+    }
+
+    .screenshot{
+  
+      max-width: 100%;
+      height: auto;
+    
+    }
+
+    [title="light"] {
+      color:#000000;
+    }
+
+    [title="dark"] {
+      color:#ffffff;
+    }
+
+
+    }

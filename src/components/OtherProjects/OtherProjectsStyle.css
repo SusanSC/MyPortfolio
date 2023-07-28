@@ -1,0 +1,42 @@
+.otherProjectCard{
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+.folderImage{
+    width: 55px;
+    height: 55px;
+    filter: invert(37%) sepia(16%) saturate(2134%) hue-rotate(211deg) brightness(91%) contrast(87%);
+    float: left;
+    margin: 20px;
+}
+
+.otherProjectCard .skillLabel{
+    background-color: #6554AF;
+    margin-bottom: 35px;
+}
+
+.otherProjectCard .socialIcon{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+
+.otherProjectTitle{
+width: 100%;
+display: inline-block;
+margin: 0;
+}
+
+.otherProjectBody{
+    margin: 10px 15px;
+    padding: 15px;
+    text-align:justify;
+
+}

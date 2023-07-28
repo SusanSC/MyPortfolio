@@ -1,0 +1,12 @@
+body {
+    background-color: #2B2730;
+    color: #ffffff;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+
+[data-status="false"] {
+  color: #000;
+}

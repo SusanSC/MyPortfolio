@@ -1,0 +1,39 @@
+#about{
+    height:auto;
+    width: 70%;
+    margin: 80px auto;
+    text-align: center;
+
+  
+  }
+  
+  .aboutText{
+    margin: 50px auto;
+    text-align: justify;
+
+  }
+  
+  .skills{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 70px auto 20px;
+    display: flex;
+  }
+  
+  
+  .skillContainer{
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .skillLabelContainer{
+    margin: 50px auto;
+  }
+
+
+  .trajectory{
+    margin: 50px auto;
+    width: 100%;
+  }

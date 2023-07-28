@@ -1,0 +1,13 @@
+.skillLabel{
+
+    margin: 5px;
+    font-weight: bold;
+    background-color: #6b6a6d;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,211 @@
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  
+   
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    ul {
+      flex-direction: row;
+      margin: auto;
+  
+    
+    }
+
+    .socialContainer{
+      margin: 100px auto 0 auto;
+     
+    }
+  
+    .skills {
+     flex-direction: column;
+    }
+  
+    .skillContainer{
+      margin-bottom: 2.5rem;
+    }
+  
+  }
+  
+  .generalContainer{
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  
+  .profTextContainer p {
+    margin:  15px auto;
+    text-align: center;
+  
+  
+  }
+  
+  .profTextContainer h1 {
+    display: inline-block;
+    text-align: center;
+    word-spacing:9999px;
+    
+  }
+  
+  .profMainContainer{
+    text-align: center;
+    height: 500px;
+    width: 80%;
+    margin: 120px auto 100px auto;
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  .profTextContainer{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  word-wrap: break-word;
+  
+  }
+  
+  .myName {
+      background: linear-gradient(to right, #9575DE 20%, #E966A0 30%, #6554AF 70%, #9575DE 80%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+      background-size: 200% auto;
+      animation: textShine 7s ease-in-out infinite alternate;
+      text-align: center;
+      font-size: 7rem;
+      margin: auto;
+      display: inline-block;
+    }
+    
+    @keyframes textShine {
+      to {
+        background-position: 200%;
+      }
+    }
+  
+    .profButtonContainer{
+      position: relative;
+      text-align: center;
+      width: 100%;
+      margin: 20px auto;
+  
+    }
+  
+  .profButton{
+      font-family: monospace;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color:#ffffff;
+      background-color: #6554AF;
+      margin: 15px;
+      width: 200px;
+      height: 60px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      transition: transform .2s; /* Animation */
+  }
+  
+  
+  .profButton:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    background-color: #9575DE;
+  }
+  
+  .profButton span{
+    position: relative;
+    left: -10px;
+    bottom:8px;
+  }
+  
+  
+
+  .socialIcon:hover{
+    filter: invert(68%) sepia(26%) saturate(5981%) hue-rotate(297deg) brightness(95%) contrast(92%);
+    transform: scale(1.1);
+  
+  }
+  
+  
+  .socialContainer{
+    height:auto;
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    left: -10px;
+    text-align: center;
+  
+  }
+  
+  .lineLight{
+    height: 2px;
+    color: white;
+    background-color: white;
+    border-width:0
+  }
+
+  .lineDark{
+    height: 2px;
+    color: black;
+    background-color: black;
+    border-width:0
+  }
+
+  .scrollUpButton{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    color: white;  
+    border-radius:50%;
+    display: none;  
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 18px; /* Increase font size */
+    background-image: linear-gradient(to right, #E966A0 0%, #9575DE  51%, #E966A0  100%);
+    transition: 0.5s; 
+    background-size: 200% auto;
+    padding: 0 0 1px 0;
+  }
+
+
+  .scrollUpButton:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+  }
+ 
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    80% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .scrollUpButton {
+    animation: bounce 1s infinite;
+  }
+
+
+
+ 

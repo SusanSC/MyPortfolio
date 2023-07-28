@@ -1,0 +1,70 @@
+
+
+#trajectoryTabsDark{
+    margin: auto;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: inline-block;
+  }
+
+  #trajectoryTabsLight{
+    margin: auto;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: inline-block;
+  }
+  
+  #trajectoryTabsLight:hover, #trajectoryTabsDark:hover{
+    filter: invert(37%) sepia(15%) saturate(2248%) hue-rotate(211deg) brightness(93%) contrast(91%);
+  }
+  
+  .trajectoryImageLight{
+   margin-right: 10px;
+   width: 30px;
+   height: 30px;
+   filter: invert(0%) sepia(3%) saturate(1%) hue-rotate(329deg) brightness(98%) contrast(101%);
+   vertical-align: middle;
+  }
+
+  .trajectoryImageDark{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    vertical-align: middle;
+   }
+  
+
+  
+  .trajectoryPDark {
+    color:#ffffff;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+  
+  }
+
+  .trajectoryPLight {
+    color:#000000;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+  
+  }
+  
+  .trajectoryS {
+    color:#807e83;
+    font-family: monospace;
+    font-size: 0.9rem;
+  
+  
+  }
+  
+  .stepsContainer{
+   width: 100%;
+  
+  }
