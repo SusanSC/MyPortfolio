@@ -26,7 +26,7 @@ function Projects(props) {
         URL2="https://blogwebsite-qnou.onrender.com/"
         image1="images/github.png"
         image2="images/globe.png"
-        screenshot="images/blogWebsite.png"
+        screenshot="images/BlogWebsite.png"
         isLight={isLight}
       ></ProjectCard>
       <ProjectCard
